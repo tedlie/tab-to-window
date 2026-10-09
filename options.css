@@ -1,0 +1,75 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 24px;
+  max-width: 400px;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 12px;
+}
+
+.field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field.checkbox {
+  flex-direction: row;
+  align-items: center;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.radio-group label {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#status {
+  font-size: 13px;
+  color: #4ade80;
+}

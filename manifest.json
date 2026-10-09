@@ -1,0 +1,25 @@
+{
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+X",
+        "mac": "Command+Shift+X"
+      },
+      "description": "Detach tab to default position"
+    }
+  },
+  "description": "Detach the active tab into a new window at your chosen screen position.",
+  "manifest_version": 3,
+  "name": "Tab to Window",
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "system.display",
+    "storage"
+  ],
+  "version": "1.0.0"
+}

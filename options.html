@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tab to Window Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <h2>Tab to Window Settings</h2>
+
+  <div class="field">
+    <label>Default Position</label>
+    <div class="radio-group">
+      <label><input type="radio" name="defaultPosition" value="first-fourth"> First Fourth</label>
+      <label><input type="radio" name="defaultPosition" value="first-third"> First Third</label>
+      <label><input type="radio" name="defaultPosition" value="center-third"> Center Third</label>
+      <label><input type="radio" name="defaultPosition" value="last-third"> Last Third</label>
+      <label><input type="radio" name="defaultPosition" value="last-fourth"> Last Fourth</label>
+    </div>
+  </div>
+
+  <div class="field checkbox">
+    <label>
+      <input type="checkbox" id="focusNewWindow"> Focus New Window
+    </label>
+  </div>
+
+  <div class="actions">
+    <button id="save">Save Settings</button>
+    <span id="status"></span>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
