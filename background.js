@@ -1,5 +1,5 @@
 const DEFAULTS = {
-  defaultPosition: 'first-third',
+  defaultPosition: 'last-fourth',
   focusNewWindow: true
 };
 
@@ -53,7 +53,7 @@ function positionBounds(position, area) {
     'last-third': [2 / 3, 1],
     'last-fourth': [3 / 4, 1]
   };
-  const [start, end] = fractions[position] || fractions['first-third'];
+  const [start, end] = fractions[position] || fractions['last-fourth'];
   return {
     left: Math.round(area.left + start * area.width),
     top: Math.round(area.top),

@@ -1,5 +1,5 @@
 const DEFAULTS = {
-  defaultPosition: 'first-third',
+  defaultPosition: 'last-fourth',
   focusNewWindow: true
 };
 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('save').addEventListener('click', () => {
     const settings = {
       defaultPosition:
-        (document.querySelector('input[name="defaultPosition"]:checked') || {}).value || 'first-third',
+        (document.querySelector('input[name="defaultPosition"]:checked') || {}).value || 'last-fourth',
       focusNewWindow: document.getElementById('focusNewWindow').checked
     };
 
