@@ -1,7 +1,7 @@
 # Tab to Window
 
 A minimal Manifest V3 Chrome extension. Click the toolbar icon (or press
-`Alt+Shift+X`) to detach the active tab into a new window positioned at
+`Option+X (Alt+X on Windows/Linux)`) to detach the active tab into a new window positioned at
 your chosen screen slice. If a window already sits there, the tab docks
 into it instead of opening a new one.
 

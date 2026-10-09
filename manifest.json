@@ -6,8 +6,8 @@
   "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Alt+Shift+X",
-        "mac": "Command+Shift+X"
+        "default": "Alt+X",
+        "mac": "Option+X"
       },
       "description": "Detach tab to default position"
     }
